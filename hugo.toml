@@ -1,0 +1,21 @@
+baseURL = 'https://rollercoaster68100.github.io/niklasprecenth.github.io/'
+languageCode = 'en-us'
+title = 'Niklas Precenth - Purview, Copilot & Microsoft 365'
+theme = 'PaperMod'
+
+[params]
+  author = 'Niklas Precenth'
+  description = 'Insights on Microsoft Purview, Copilot governance, and Microsoft 365 security.'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+  Title = 'Hi, I am Niklas'
+  Content = 'Solution Architect at Atea. Writing about Microsoft Purview, Copilot governance, sensitivity labels, and the things that break along the way.'
+
+[[params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/niklas-precenth-pmp-csm-9135287/'
