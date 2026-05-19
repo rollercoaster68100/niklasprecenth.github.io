@@ -108,7 +108,7 @@ Or you can set it using `-Settings` (also supported by the cmdlet syntax):
 Set-Label -Identity $labelId -Settings @{MembersCanShare="MemberShareNone"}
 ```
 
-Both parameters exist in the official cmdlet syntax. citeturn73search232
+Both parameters exist in the official cmdlet syntax. 
 
 ### 4) Verify (the part that trips people up)
 
