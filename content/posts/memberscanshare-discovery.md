@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Case of the Missing AdvancedSettings: A Container Label Mystery"
 date: 2026-05-18
 draft: false
