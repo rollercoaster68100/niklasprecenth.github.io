@@ -6,14 +6,14 @@
     <description>Recent content in Microsoft Purview on Niklas Precenth - Purview, Copilot &amp; Microsoft 365</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/microsoft-purview/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Case of the Missing AdvancedSettings: A Container Label Mystery</title>
+      <title>Stop Chasing Empty AdvancedSettings: Verifying Container Label Settings the Right Way</title>
       <link>http://localhost:1313/posts/memberscanshare-discovery/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/memberscanshare-discovery/</guid>
-      <description>How a routine container label configuration uncovered an undocumented change in ExchangeOnlineManagement 3.9.x — and why it matters for Copilot governance.</description>
+      <description>A practical (and corrected) guide to enforcing owner-only sharing with container sensitivity labels — and how to verify it without getting misled by cmdlet naming.</description>
     </item>
   </channel>
 </rss>
