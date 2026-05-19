@@ -50,8 +50,8 @@ That framing was wrong.
 
 The more accurate explanation is:
 
-1. The `Set-Label` cmdlet supports both `-AdvancedSettings` and `-Settings` parameters. Microsoft Learn shows both in the syntax. citeturn73search232  
-2. These parameters can write values into the same underlying label configuration (“settings blob”). (This behavior is widely observed and discussed by the community, and aligns with how the cmdlet is structured.) citeturn73search232  
+1. The `Set-Label` cmdlet supports both `-AdvancedSettings` and `-Settings` parameters. Microsoft Learn shows both in the syntax.  
+2. These parameters can write values into the same underlying label configuration (“settings blob”). (This behavior is widely observed and discussed by the community, and aligns with how the cmdlet is structured.)  
 3. When you read the label back with `Get-Label`, the canonical place to look for key/value settings is the label’s **`Settings`** property.
 
 **Net result:**
@@ -139,7 +139,7 @@ New-LabelPolicy -Name "Secure Team Policy" \
 
 1. **Secure-by-default sharing matters more with Copilot** because AI surfaces what is already accessible.
 2. `MembersCanShare="MemberShareNone"` is a practical control to reduce oversharing.
-3. `Set-Label` supports both `-AdvancedSettings` and `-Settings` parameters. citeturn73search232
+3. `Set-Label` supports both `-AdvancedSettings` and `-Settings` parameters.
 4. Don’t confuse the cmdlet parameter name with the property you should verify — check the label’s **`Settings`**.
 5. A screenshot showing greyed-out SharePoint sharing settings is the strongest proof for stakeholders.
 
@@ -147,8 +147,8 @@ New-LabelPolicy -Name "Secure Team Policy" \
 
 ## References
 
-- Microsoft Learn (Set-Label cmdlet syntax includes **-AdvancedSettings** and **-Settings**): https://learn.microsoft.com/en-us/powershell/module/exchangepowershell/set-label?view=exchange-ps citeturn73search232
-- Practical365 (Tony Redmond) – reporting sensitivity label settings with PowerShell: https://practical365.com/sensitivity-label-settings-report/ citeturn73search226
+- Microsoft Learn (Set-Label cmdlet syntax includes **-AdvancedSettings** and **-Settings**): https://learn.microsoft.com/en-us/powershell/module/exchangepowershell/set-label?view=exchange-ps 
+- Practical365 (Tony Redmond) – reporting sensitivity label settings with PowerShell: https://practical365.com/sensitivity-label-settings-report/ 
 
 ---
 
