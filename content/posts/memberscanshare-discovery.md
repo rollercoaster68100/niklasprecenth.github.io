@@ -23,7 +23,7 @@ At **Atea**, this is part of how we help customers prepare for Copilot: lock dow
 
 Below is the real-world outcome after creating a Team with the **Secure Team** container sensitivity label. SharePoint shows that **sharing permissions are managed by your organization**, and the options are **greyed out** — confirming the label is enforcing the setting.
 
-{{< figure src="/images/memberscanshare-proof.png" alt="Site sharing settings: Sharing permissions are managed by your organization. Only site owners can share." caption="Label-enforced site sharing: Users cannot override sharing permissions. (MembersCanShare = MemberShareNone)" >}}
+![Site sharing settings - Only site owners can share](../../images/memberscanshare-proof.png)
 
 **What this demonstrates:**
 
